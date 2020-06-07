@@ -1,0 +1,23 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "description": "Projeto baseado na Next Level Week",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js",
+    "db": "node src/database/db.js"
+  },
+  "keywords": [],
+  "author": "Gabriel Calistro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-pre-gyp": "^0.15.0",
+    "nunjucks": "^3.2.1",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
